@@ -1,0 +1,66 @@
+#menu{
+				height: 50px;
+				background-color: whitesmoke;
+				display: flex;
+				
+			}
+			#menu-title{
+				width: 25%;
+				display: flex;
+				flex-flow: row;
+	            justify-content:center;
+	            align-items: center;
+	           
+	            flex-flow: column;
+			}
+			.title{
+				width: 30px;
+				
+			}
+			.xun{
+				width: 30px;
+				
+			}
+			.find{
+				width: 24px;
+				margin-top: 4px;
+				
+			}
+			.my{
+				width: 26px;
+				margin-top: 6px;
+			}
+			#text{
+				font-size: 12px;
+				font-family: "微软雅黑";
+			}
+			#text1{
+				font-size: 12px;
+				font-family: "微软雅黑";
+				/*margin-top: 4px;*/
+			}
+			#menu-friend{
+				width: 25%;
+				display: flex;
+				flex-flow: row;
+	            justify-content:center;
+	            align-items: center;
+	            
+	            flex-flow: column;
+			}
+			#menu-game{
+				width: 25%;
+				display: flex;
+				flex-flow: row;
+	            justify-content:center;
+	            align-items: center;
+	            flex-flow: column;
+			}
+			#menu-i{
+				width: 25%;
+				display: flex;
+				flex-flow: row;
+	            justify-content:center;
+	            align-items: center;
+	           flex-flow: column;
+			}

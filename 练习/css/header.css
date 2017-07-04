@@ -1,0 +1,132 @@
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+	display:none;
+}
+
+/*手机头部*/
+#header{
+				height:80px;
+				background-image: linear-gradient(to bottom, #212121, #616161);
+			}
+			/* 头部显示部分*/
+#phone{
+				height: 30px;
+				display: flex;
+			}
+			/*信号源*/
+			#phone-left{
+				width: 33%;
+				display: flex;
+				flex-flow: row;
+				justify-content: flex-start;
+				align-items: center;
+				
+			}
+			
+			#phone-left div{
+				margin: 2px;
+				color: whitesmoke;
+				
+			}
+			/*信号格*/
+			.yuan{
+				width:8px ;
+				height: 8px;
+				background-color: white;
+				border-radius: 50%;
+			
+			}
+			.kong{
+				width:6px ;
+				height: 6px;
+				border-radius: 50%;
+				border: 1px solid white;
+			}
+			/*信号名*/
+			.yi{
+				font-size: 12px;
+			}
+			/*时间*/
+			#phone-midden{
+				width: 34%;
+				color: whitesmoke;
+				font-size: 12px;
+				display: flex;
+	            flex-flow: row;
+	            justify-content: center;
+	            align-items: center;
+			}
+			/*右边电量显示*/
+			#phone-right{
+				width: 33%;
+				flex-flow: row;
+				display: flex;
+	            justify-content: flex-end;  
+	            align-items: center;
+	            font-family: "微软雅黑";
+	            font-size: 12px;
+	            color: whitesmoke;
+			}
+			/*电池主体*/
+			.zhu{
+				width: 30px;
+				height: 10px;
+				border: 1px solid white;
+				margin-left: 4px;
+			}
+			/*电池内部*/
+			.xin{
+				width: 20px;
+				height: 10px;
+				background-color: #64dd17;
+			}
+			/*电池正极*/
+			.xiao{
+				width: 1px;
+				height: 4px;
+				border: 1px solid white;
+				background-color: white;
+				
+			}
+			#phone2{
+	            height: 35px;
+				display: flex;
+				
+			}
+			#phone-left2{
+				width:33%;
+				color: whitesmoke;
+				font-size: 15px;
+				display: flex;
+	            flex-flow: row;
+	            justify-content: flex-start;
+	            align-items: center;
+	            
+			}
+			#phone-midden2{
+				width: 34%;
+				color: whitesmoke;
+				font-size: 16px;
+	            display: flex;
+	            flex-flow: row;
+	            justify-content:center;
+	            align-items: center;
+	            
+			}
+			#phone-right2{
+				width: 33%;
+				color: whitesmoke;
+				font-size: 16px;
+	            display: flex;
+	            flex-flow: row;
+	            justify-content: flex-end;
+	            align-items: center;
+	            
+			}
+			.sou{
+				width: 30px;
+				margin-right: 20px;
+			}
+			.jia{
+				width: 32px;
+			}
