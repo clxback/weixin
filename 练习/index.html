@@ -24,7 +24,46 @@
 				width: 100%;
 				position: fixed;
 			}
+			#jia-menu {
+				height: 190px;
+				width: 140px;
+				background: #424242;
+				position: absolute;
+				right: 4px;
+				top:62px;
+				display: flex;
+				flex-flow: column nowrap;
+				justify-content: space-around;
+				align-items: center;
+			}
 			
+			.qunliao {
+				width: 90%;
+				border-bottom: 1px solid #616161;
+				display: flex;
+				flex-flow: row nowrap;
+				padding: 6px 0px 6px 0px;
+			}
+			.qunliao:last-child {
+				border-bottom: none;
+			}
+			
+			.qunliao div {
+				padding: 0px 10px 0px 10px;
+			}
+			
+			.qunliao div:nth-child(2) {
+				display: flex;
+				align-items: center;
+				font-family: "微软雅黑";	
+			    font-size: 12px;
+			}
+			
+			
+			.liao img {
+				height: 22px;
+				width: 22px;
+			}
 			
 		</style>
 	</head>
@@ -55,8 +94,30 @@
 					<div id="phone-left2">微信(43)</div>
 					<div id="phone-midden2"></div>
 					<div id="phone-right2">
-						<img  src="img/control/搜素.svg" class="sou" />
-				        <img src="img/control/加号.svg" class="jia" />
+						<div id="sou"></div>
+					    <div id="add"></div>
+					    <div id="jia-menu">
+					    	<div class="qunliao">
+							    <div class="liao"><img src="img/icon/聊天1.svg"/></div>
+							    <div class="">发起群聊</div>
+						    </div>
+						<div class="qunliao"> 
+							<div class="liao"><img src="img/icon/添加朋友.svg"/></div>
+							<div>添加朋友</div>
+						</div>
+						<div class="qunliao">
+							<div class="liao"><img src="img/icon/扫一扫.svg"/></div>
+							<div>扫一扫</div>
+						</div>
+						<div class="qunliao">
+							<div class="liao"><img src="img/icon/收付款.svg"/></div>
+							<div>收付款</div>
+						</div>
+						<div class="qunliao">
+							<div class="liao"><img src="img/icon/邮件.svg"/></div>
+							<div>帮助与反馈</div>
+						</div>
+					    </div>
 					</div>
 				</div>
 			</div>
@@ -187,3 +248,5 @@
 		</div>
 	</body>
 </html>
+<script type="text/javascript" src="jquery/jquery.js" ></script>
+<script type="text/javascript" src="js/jia-menu.js" ></script>

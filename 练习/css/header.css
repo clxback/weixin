@@ -123,10 +123,19 @@
 	            align-items: center;
 	            
 			}
-			.sou{
+			#sou {
+				height: 28px;
+				width: 28px;
+				background:url(../img/control/搜素.svg) no-repeat;
+				background-size: contain;
+				margin-right: 11px;
+			}
+
+			
+			#add {
+				height: 30px;
 				width: 30px;
-				margin-right: 20px;
+				background: url(../img/control/加号.svg) no-repeat;
+				background-size: contain;
 			}
-			.jia{
-				width: 32px;
-			}
+
