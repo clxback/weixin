@@ -24,46 +24,48 @@
 				width: 100%;
 				position: fixed;
 			}
+			
 			#jia-menu {
 				height: 190px;
 				width: 140px;
 				background: #424242;
 				position: absolute;
 				right: 4px;
-				top:62px;
+				top: 78px;
 				display: flex;
 				flex-flow: column nowrap;
 				justify-content: space-around;
 				align-items: center;
 			}
 			
-			.qunliao {
+			.jia-menu-li {
 				width: 90%;
 				border-bottom: 1px solid #616161;
 				display: flex;
 				flex-flow: row nowrap;
 				padding: 6px 0px 6px 0px;
 			}
-			.qunliao:last-child {
+			
+			.jia-menu-li:last-child {
 				border-bottom: none;
 			}
 			
-			.qunliao div {
+			.jia-menu-li div {
 				padding: 0px 10px 0px 10px;
 			}
 			
-			.qunliao div:nth-child(2) {
+			.jia-menu-li div:nth-child(2) {
 				display: flex;
 				align-items: center;
-				font-family: "微软雅黑";	
-			    font-size: 12px;
+				font-family: "微软雅黑";
+				font-size: 12px;
 			}
 			
-			
-			.liao img {
+			.icon-tu img {
 				height: 22px;
 				width: 22px;
 			}
+
 			
 		</style>
 	</head>
@@ -96,29 +98,32 @@
 					<div id="phone-right2">
 						<div id="sou"></div>
 					    <div id="add"></div>
-					    <div id="jia-menu">
-					    	<div class="qunliao">
-							    <div class="liao"><img src="img/icon/聊天1.svg"/></div>
-							    <div class="">发起群聊</div>
-						    </div>
-						<div class="qunliao"> 
-							<div class="liao"><img src="img/icon/添加朋友.svg"/></div>
+					   
+						<div id="jia-menu">
+						
+						<div class="jia-menu-li">
+							<div class="icon-tu"><img src="img/icon/聊天1.svg"/></div>
+							<div class="">发起群聊</div>
+						</div>
+						<div class="jia-menu-li"> 
+							<div class="icon-tu"><img src="img/icon/添加朋友.svg"/></div>
 							<div>添加朋友</div>
 						</div>
-						<div class="qunliao">
-							<div class="liao"><img src="img/icon/扫一扫.svg"/></div>
+						<div class="jia-menu-li">
+							<div class="icon-tu"><img src="img/icon/扫一扫.svg"/></div>
 							<div>扫一扫</div>
 						</div>
-						<div class="qunliao">
-							<div class="liao"><img src="img/icon/收付款.svg"/></div>
+						<div class="jia-menu-li">
+							<div class="icon-tu"><img src="img/icon/收付款.svg"/></div>
 							<div>收付款</div>
 						</div>
-						<div class="qunliao">
-							<div class="liao"><img src="img/icon/邮件.svg"/></div>
+						<div class="jia-menu-li">
+							<div class="icon-tu"><img src="img/icon/邮件.svg"/></div>
 							<div>帮助与反馈</div>
 						</div>
-					    </div>
 					</div>
+					   </div>	
+			</div>
 				</div>
 			</div>
 			<div id="warp">
