@@ -1,18 +1,18 @@
-#menu{
-				height: 50px;
-				background-color: whitesmoke;
-				display: flex;
-				
-			}
-			#menu-title{
-				width: 25%;
-				display: flex;
-				flex-flow: row;
-	            justify-content:center;
-	            align-items: center;
-	           
-	            flex-flow: column;
-			}
+            #menu {
+            	height: 50px;
+            	background-color: whitesmoke;
+            	display: flex;
+            
+            }
+            
+            #menu-title {
+            	width: 25%;
+            	display: flex;
+            	flex-flow: row;
+            	justify-content: center;
+            	align-items: center;
+            	flex-flow: column;
+            }
 			.title{
 				width: 30px;
 				

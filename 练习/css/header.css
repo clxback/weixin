@@ -5,7 +5,7 @@
 
 /*手机头部*/
 #header{
-				height:80px;
+				height:65px;
 				background-image: linear-gradient(to bottom, #212121, #616161);
 			}
 			/* 头部显示部分*/
@@ -89,7 +89,7 @@
 				
 			}
 			#phone2{
-	            height: 35px;
+	            height: 25px;
 				display: flex;
 				
 			}
